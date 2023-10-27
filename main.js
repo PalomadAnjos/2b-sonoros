@@ -1,6 +1,6 @@
 //Declaração/criação a função tocaSomPix
 function tocaSomPix() {
-    document.querySelector('#som_tecla_pix').play(); 
+    document.querySelector(idElementoAudio).play(); 
  }
 
  //criando a referências constante listaDeTeclas e buscando a classe coletiva .tecla
@@ -8,8 +8,9 @@ function tocaSomPix() {
  
  let contador = 0;
  while(contador < 9){
-   listaDeTeclas[contador].onclick = tocaSomPix;
+   listaDeTeclas[contador].onclick = function(){
+      tocaSom(idAuio);
+   }
    contador = contador + 1;
    console.log(contador);
-   
-}
+   }
