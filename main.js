@@ -54,5 +54,11 @@ function tocaSomUepaa() {
  //chamada ou invocação da função  tocaSomCade ao clicar no botão
  document.querySelector('.tecla_cade').play(); {
 }
-
+//Declaração/criação a funcão tocaSomKiko
+function tocaSomkiko() {
+   document.querySelector('#som_tecla_kiko').play();
+}
+//chamada ou invocação da função  tocaSomCade ao clicar no botão
+document.querySelector('.tecla_kiko').play(); {
+}
  
