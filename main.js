@@ -2,9 +2,10 @@
 function tocaSomPix() {
     document.querySelector(idElementoAudio).play(); 
  }
-
- //criando a referências constante listaDeTeclas e buscando a classe coletiva .tecla
+//criando a referências constante listaDeTeclas e buscando a classe coletiva .tecla
  const listaDeTeclas =document.querySelectorAll('.tecla');
+ //criação da repetição "while" trocado pelo "for" com variavel,condição e incremento
+ for(let contador = 0; contador < istaDeTelas.
  
  let contador = 0;
  while(contador < listaDeTeclas.length){
